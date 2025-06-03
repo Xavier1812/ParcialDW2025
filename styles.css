@@ -1,0 +1,77 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header, footer {
+  background-color:  #4cc4dc;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+#puceLogo {
+  width: 200px; /* Ajusta el tamaño según lo necesites */
+  height: auto;
+}
+
+.encabezado-contenido {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 300px;
+}
+
+button {
+  background-color: #144484;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3c446c ;
+}
+
+#lista-participantes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.participante {
+  text-align: center;
+  width: 120px;
+}
+
+.participante img {
+  width: 100%;
+  border-radius: 5%;
+}
