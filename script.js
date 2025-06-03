@@ -1,9 +1,9 @@
-// Cambiar tema
+// Cambio el tema de claro a oscuro y alreves
 document.getElementById("cambiarTema").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-// Validar formulario
+// Valido el formulario
 document.getElementById("formulario").addEventListener("submit", (e) => {
   const nombre = document.getElementById("nombre").value.trim();
   const correo = document.getElementById("correo").value.trim();
@@ -15,7 +15,7 @@ document.getElementById("formulario").addEventListener("submit", (e) => {
   }
 });
 
-// Mostrar participantes aleatorios
+// Jalo datos de la API
 fetch("https://randomuser.me/api/?results=5")
   .then(response => response.json())
   .then(data => {
