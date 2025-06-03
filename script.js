@@ -3,7 +3,7 @@ document.getElementById("cambiarTema").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-// Valido el formulario
+// Vlido el formulario
 document.getElementById("formulario").addEventListener("submit", (e) => {
   const nombre = document.getElementById("nombre").value.trim();
   const correo = document.getElementById("correo").value.trim();
